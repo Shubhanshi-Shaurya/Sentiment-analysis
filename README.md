@@ -33,14 +33,6 @@ sentiment_analysis/
 
 ---
 
-## Model Insights
-The model was trained on the IMDB dataset, consisting of 50,000 highly polar movie reviews.
-- Feature Engineering: Used max_features=5000 to capture the most significant vocabulary.
-- Preprocessing: Robust handling of NaN values and unclosed quotation marks in the dataset.
-- Performance: Successfully achieved a balanced accuracy score after optimizing the data parsing engine.
-
----
-
 ## Learning Outcomes
 - Data Wrangling: Resolved complex CSV ParserError and EOF issues using Python-based parsing engines.
 - Model Persistence: Implemented Pickle for saving and loading models across different environments (Google Colab to local).
