@@ -24,11 +24,11 @@ A machine learning-powered web application that classifies movie reviews as **Po
 ```text
 sentiment_analysis/
 │
-├── app.py                # Main Streamlit application code
-├── model.pkl             # Trained Logistic Regression model
-├── vectorizer.pkl        # Fitted TF-IDF Vectorizer
-├── requirements.txt      # List of dependencies
-└── README.md             # Project documentation
+├── app.py                
+├── model.pkl             
+├── vectorizer.pkl        
+├── requirements.txt      
+└── README.md             
 ```
 
 ---
